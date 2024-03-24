@@ -34,9 +34,20 @@
   }
 }
 
-@media (min-width: 1560.1px) {
+@media (min-width: 1560.1px) and (max-width: 1750px) {
   .video-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .video-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1750.1px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
   .video-title {
