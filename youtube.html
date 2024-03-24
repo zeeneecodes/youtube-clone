@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- load styles -->
+  <link rel="stylesheet" href="general.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="video.css">
+  <link rel="stylesheet" href="sidebar.css">
+  
+  <!-- load fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>YouTube Clone</title>
+</head>
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="Images/icons/hamburger-menu.svg">
+      <a href="https://www.youtube.com/" target="_blank"><img class="youtube-logo" src="Images/icons/youtube-logo.svg"></a>
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" src="Images/icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button"><img class="voice-search-icon" src="Images/icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="Images/icons/upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="youtube-apps-container">
+        <img class="youtube-apps-icon" src="Images/icons/youtube-apps.svg">
+        <div class="tooltip">YouTube Apps</div>
+      </div>
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="Images/icons/notifications.svg">
+        <div class="notifications-count">3</div>
+        <div class="tooltip">Notifications</div>
+      </div>
+
+      <img class="current-user-picture" src="Images/Channel Pictures/my-channel.jpg">
+    </div>
+  </header>
+
+  <nav class="sidebar">
+    <div class="sidebar-link">
+      <img src="Images/icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="Images/icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="Images/icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="Images/icons/originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="Images/icons/youtube-music.svg">
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="Images/icons/library.svg">
+      <div>Library</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="Images/icons/github.svg">
+      <div>GitHub</div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=kZ0-eF9xY28"><img class="thumbnail" src="Images/thumbnails/thumbnail-1.webp"></a>
+          <div class="video-time">3:15:16</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Images/Channel Pictures/channel-1.jpeg" alt="">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Checking Out The BRAND NEW Festivals 🏜️</p>
+            <a href="https://www.youtube.com/@ezlilyy"><p class="video-author">ezlilyy</p></a>
+            <p class="video-stats">5.8K views &#183; Streamed 1 day ago</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=G9Xh95FO0i4"><img class="thumbnail" src="Images/thumbnails/thumbnail-2.webp"></a>
+          <div class="video-time">32:54</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Images/Channel Pictures/channel-2.jpeg" alt="">
+          </div>
+          <div class="video-info">
+            <p class="video-title">95 hours on Canadas BEST train! (Vancouver
+              to Toronto on Via Rail)</p>
+          <a href="https://www.youtube.com/@KaraandNate"><p class="video-author">Kara and Nate</p></a>
+          <p class="video-stats">107K views views &#183; 3 hours ago</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=1rd4P7uMvvQ"><img class="thumbnail" src="Images/thumbnails/thumbnail-3.webp"></a>
+          <div class="video-time">44:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Images/Channel Pictures/channel-3.jpeg" alt="">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Playlist for Smooth Brained Organisms</p>
+            <a href="https://www.youtube.com/@sandristas009"><p class="video-author">Sandristas 009</p></a>
+            <p class="video-stats">1M views &#183; 3 months ago</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=YHCv8KFdL6M"><img class="thumbnail" src="Images/thumbnails/thumbnail-4.webp"></a>
+          <div class="video-time">43:52</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Images/Channel Pictures/channel-4.jpeg" alt="">
+          </div>
+          <div class="video-info">
+            <p class="video-title">[4.51 Xamaran, Paimon, And Eating
+              Things You're Not Supposed To - A...</p>
+          <a href="https://www.youtube.com/@Ashikai"><p class="video-author">Ashikai</p></a>
+          <p class="video-stats">75K views &#183; 2 days ago</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://i.ytimg.com/vi/GqMQLP6N25g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDqh9x3duqEKJCD2Yq5CL94058tMw"><img class="thumbnail" src="Images/thumbnails/thumbnail-5.webp"></a>
+          <div class="video-time">35:42</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Images/Channel Pictures/channel-5.jpeg" alt="">
+          </div>
+          <div class="video-info">
+            <p class="video-title">I finally found a slow burn romantasy book!! and I liked it!!</p>
+            <a href="https://www.youtube.com/@PeruseProject"><p class="video-author">PeruseProject</p></a>
+            <p class="video-stats">31K views &#183; 9 days ago</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=GV4TNIiJQQU"><img class="thumbnail" src="Images/thumbnails/thumbnail-6.webp"></a>
+          <div class="video-time">8:01:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="Images/Channel Pictures/channel-6.jpeg" alt="">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Driving in Rain for Sleeping "Real Footage" Rain Noise Hiqhway,...</p>
+          <a href="https://www.youtube.com/@TheRainDriver"><p class="video-author">The Rain Driver</p></a>
+          <p class="video-stats">322K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  
+</body>
+</html>
