@@ -1,4 +1,4 @@
-import { videoDetails } from "../data/videos.js";
+import { videoDetails, shuffle } from "../data/videos.js";
 
 renderHTML();
 
@@ -6,6 +6,9 @@ renderHTML();
 function renderHTML() {
   const videoContainer = document.querySelector('.video-grid');
   let html = '';
+
+  shuffle(videoDetails);
+  
   videoDetails.forEach((video) => {
     html += `
     <div class="video-preview">
