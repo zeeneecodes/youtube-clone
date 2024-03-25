@@ -1,5 +1,6 @@
 export const videoDetails = [
   {
+    id: 1,
     channelName:"ezlilyy",
     channelLink: "https://www.youtube.com/@ezlilyy",
     channelPicture: "Images/Channel Pictures/channel-1.jpeg",
@@ -9,8 +10,9 @@ export const videoDetails = [
     views:"5.8K",
     publishedWhen:"Streamed 1 day ago",
     originalLink: "https://www.youtube.com/watch?v=kZ0-eF9xY28",
-    isVerified: "No"
+    isVerified: "Yes"
   }, {
+    id: 2,
     channelName:"Kara and Nate",
     channelLink: "https://www.youtube.com/@KaraandNate",
     channelPicture: "Images/Channel Pictures/channel-2.jpeg",
@@ -22,6 +24,7 @@ export const videoDetails = [
     originalLink: "https://www.youtube.com/watch?v=G9Xh95FO0i4",
     isVerified: "Yes"
   }, {
+    id: 3,
     channelName:"Sandristas 009",
     channelLink: "https://www.youtube.com/@sandristas009",
     channelPicture: "Images/Channel Pictures/channel-3.jpeg",
@@ -33,6 +36,7 @@ export const videoDetails = [
     originalLink: "https://www.youtube.com/watch?v=1rd4P7uMvvQ",
     isVerified: "No"
   }, {
+    id: 4,
     channelName:"Ashikai",
     channelLink: "https://www.youtube.com/@Ashikai",
     channelPicture: "Images/Channel Pictures/channel-4.jpeg",
@@ -44,6 +48,7 @@ export const videoDetails = [
     originalLink: "https://www.youtube.com/watch?v=YHCv8KFdL6M",
     isVerified: "Yes"
   }, {
+    id: 5,
     channelName:"PeruseProject",
     channelLink: "https://www.youtube.com/@Ashikai",
     channelPicture: "Images/Channel Pictures/channel-5.jpeg",
@@ -55,6 +60,7 @@ export const videoDetails = [
     originalLink: "https://www.youtube.com/watch?v=GqMQLP6N25g",
     isVerified: "Yes"
   }, {
+    id: 6,
     channelName:"The Rain Driver",
     channelLink: "https://www.youtube.com/@TheRainDriver",
     channelPicture: "Images/Channel Pictures/channel-6.jpeg",
