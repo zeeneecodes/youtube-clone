@@ -46,8 +46,8 @@ export const videoDetails = [
   }, {
     channelName:"PeruseProject",
     channelLink: "https://www.youtube.com/@Ashikai",
-    channelPicture: "Images/Channel Pictures/channel-4.jpeg",
-    thumbnail: "Images/thumbnails/thumbnail-4.webp",
+    channelPicture: "Images/Channel Pictures/channel-5.jpeg",
+    thumbnail: "Images/thumbnails/thumbnail-5.webp",
     title:"I finally found a slow burn romantasy book!! and I liked it!!",
     duration:"35:42",
     views:"31K",
@@ -57,8 +57,8 @@ export const videoDetails = [
   }, {
     channelName:"The Rain Driver",
     channelLink: "https://www.youtube.com/@TheRainDriver",
-    channelPicture: "Images/Channel Pictures/channel-4.jpeg",
-    thumbnail: "Images/thumbnails/thumbnail-4.webp",
+    channelPicture: "Images/Channel Pictures/channel-6.jpeg",
+    thumbnail: "Images/thumbnails/thumbnail-6.webp",
     title:'Driving in Rain for Sleeping "Real Footage" Rain Noise Highway,...',
     duration:"8:01:22",
     views:"322K",
