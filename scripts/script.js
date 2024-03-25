@@ -11,6 +11,14 @@ function renderHTML() {
           <div class="thumbnail-row">
             <img class="thumbnail" src="${video.thumbnail}">
             <div class="video-time">${video.duration}</div>
+            <div class="tool-watch-later">
+              <img src="Images/icons/watch-later.png" class="tool-icon">
+              Watch Later
+            </div>
+            <div class="tool-queue">
+              <img src="Images/icons/add-to-queue.png" class="tool-icon">
+              Add to queue
+            </div>
           </div>
           <div class="video-info-grid">
             <div class="channel-picture">

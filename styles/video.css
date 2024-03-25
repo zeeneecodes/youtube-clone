@@ -9,6 +9,70 @@
   position: relative;
 }
 
+
+/* --------------------------------------- */
+/* styles for watch-later and add-to-queue */
+/* --------------------------------------- */
+
+.tool-watch-later,
+.tool-queue {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.822);
+  overflow: hidden;
+  display: flex;
+  display: none;
+  align-items: center;
+  cursor: pointer;
+  
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  white-space: nowrap;
+  
+  padding: 2px;
+  height: 20px;
+  width: 20px;
+  border-radius: 3px; 
+  
+  transform-origin: left;
+  transition: width 0.20s;
+  transition-timing-function: ease-in-out;
+}
+
+.tool-watch-later {
+  top: 10px;
+  left: 10px;
+}
+
+.tool-queue {
+  top: 38px;
+  left: 10px;
+}
+
+.tool-icon {
+  height: 95%;
+  margin-right: 5px;
+}
+
+.tool-watch-later:hover,
+.tool-queue:hover {
+  width: 98px;
+}
+
+.video-preview {
+  transition: display 0.15s;
+}
+
+.video-preview:hover .tool-watch-later,
+.video-preview:hover .tool-queue  {
+  display: inline-flex;
+}
+
+
+/* ------------------------------------------------------------- */
+/* styles for video title, channel pic, and all the addtn'l info */
+/* ------------------------------------------------------------- */
+
 .video-grid {
   display: grid;
   column-gap: 16px;
@@ -53,13 +117,17 @@
   font-weight: 500;
   padding: 4px;
   border-radius: 2px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.822);
   color: white;
   position: absolute;
   bottom: 10px;
   right: 8px;
 }
 
+
+/* ------------------------------ */
+/* styles for page responsiveness */
+/* ------------------------------ */
 @media (min-width: 600.1px) and (max-width: 1080px){
   .video-grid {
     grid-template-columns: 1fr 1fr;
