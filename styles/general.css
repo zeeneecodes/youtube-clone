@@ -8,9 +8,9 @@ body {
   margin: 0;
   margin-bottom: 20px;
   padding: 80px 24px 0 96px;
-  background-color: rgb(249, 249, 249);
   font-family: Roboto, Arial;
   scroll-behavior: smooth;
+  background-color: white;
 }
 
 
