@@ -148,7 +148,7 @@
   margin-top: 1px;
   margin-left: 6px;
   cursor: pointer;
-  /* display: none; */
+  display: none;
 }
 
 .is-verified {
