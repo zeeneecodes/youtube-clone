@@ -71,5 +71,65 @@ export const videoDetails = [
     publishedWhen:"1 year ago",
     originalLink: "https://www.youtube.com/watch?v=GV4TNIiJQQU",
     isVerified: "No"
+  }, {
+    id: 7,
+    channelName:"HITO",
+    channelLink: "https://www.youtube.com/@hito7302",
+    channelPicture: "Images/Channel Pictures/channel-7.jpg",
+    thumbnail: "Images/thumbnails/thumbnail-7.webp",
+    title:'Rainy day • lofi ambient music I chill beats to relax/study to',
+    duration:"1:05:03",
+    views:"295K",
+    publishedWhen:"7 months ago",
+    originalLink: "https://www.youtube.com/watch?v=INMWDBgfGBM",
+    isVerified: "No"
+  }, {
+    id: 8,
+    channelName:"em iffy",
+    channelLink: "https://www.youtube.com/@emiffy646",
+    channelPicture: "Images/Channel Pictures/channel-8.jpg",
+    thumbnail: "Images/thumbnails/thumbnail-8.webp",
+    title:'6am productive morning to night routine🌥 | having fun alone, morning cafe, housework',
+    duration:"26:18",
+    views:"1.4M",
+    publishedWhen:"8 months ago",
+    originalLink: "https://www.youtube.com/watch?v=wHdqPFESgCs",
+    isVerified: "No"
+  }, {
+    id: 9,
+    channelName:"Bernadette Banner",
+    channelLink: "https://www.youtube.com/@bernadettebanner",
+    channelPicture: "Images/Channel Pictures/channel-9.jpg",
+    thumbnail: "Images/thumbnails/thumbnail-9.webp",
+    title:"NYC's Last Flower Makers Explain the Victorian Craft of Artificial Flower Production",
+    duration:"18:46",
+    views:"892K",
+    publishedWhen:"3 years ago",
+    originalLink: "https://www.youtube.com/watch?v=UTWsDC24IIw",
+    isVerified: "Yes"
+  }, {
+    id: 10,
+    channelName:"Just Alex",
+    channelLink: "https://www.youtube.com/@just_alex",
+    channelPicture: "Images/Channel Pictures/channel-10.jpg",
+    thumbnail: "Images/thumbnails/thumbnail-10.webp",
+    title:"I Moved into an Off Grid Wilderness Mountain Hut - Living in the Alps",
+    duration:"44:49",
+    views:"3.3M",
+    publishedWhen:"1 year ago",
+    originalLink: "https://www.youtube.com/watch?v=KcmjitAB0sM",
+    isVerified: "No"
+  }, {
+    id: 11,
+    channelName:"Solo Solo Travel",
+    channelLink: "https://www.youtube.com/@SoloSoloTravel",
+    channelPicture: "Images/Channel Pictures/channel-11.jpg",
+    thumbnail: "Images/thumbnails/thumbnail-11.webp",
+    title:"Visiting Japan's Famous Snow Village | Ginzan Onsen 🇯🇵",
+    duration:"33:13",
+    views:"198K",
+    publishedWhen:"3 weeks ago",
+    originalLink: "https://www.youtube.com/watch?v=WmQDnAV_ASM&t=1174s",
+    isVerified: "Yes"
   }
 ];
