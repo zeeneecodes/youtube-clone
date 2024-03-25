@@ -91,11 +91,11 @@
 .youtube-apps-container .tooltip,
 .notifications-icon-container .tooltip{
   position: absolute;
-  background-color: gray;
+  background-color: rgba(115, 115, 115, 0.959);
   color: white;
-  padding: 4px 8px 4px 8px;
+  padding: 8px 5px 8px 5px;
   border-radius: 2px;
-  font-size: 12px;
+  font-size: 11px;
   bottom: -30px;
   opacity: 0;
   transition: 0.15s;

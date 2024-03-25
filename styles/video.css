@@ -108,12 +108,47 @@
   align-items: start;
 }
 
+.verified-container,
+.channel-name-container {
+  position: relative;
+}
+
+.tooltip2,
+.tooltip2-v  {
+  position: absolute;
+  background-color: rgba(115, 115, 115, 0.959);
+  color: white;
+  padding: 8px 5px 8px 5px;
+  border-radius: 2px;
+  font-size: 11px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.tooltip2 {
+  bottom: 33px;
+  left: -1px;
+}
+
+.tooltip2-v {
+  bottom: 31px;
+  left: -15px;
+}
+
+.verified-container:hover .tooltip2-v,
+.channel-name-container:hover .tooltip2 {
+  opacity: 1;
+}
+
 .verified {
   height: 13px;
   width: 12px;
   margin-top: 1px;
   margin-left: 6px;
-  display: none;
+  cursor: pointer;
+  /* display: none; */
 }
 
 .is-verified {
@@ -128,6 +163,10 @@
 
 .video-author {
   margin-bottom: 4px;
+}
+
+.video-author:hover {
+  color: rgb(66, 66, 66);
 }
 
 .video-time {

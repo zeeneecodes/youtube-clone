@@ -31,8 +31,14 @@ function renderHTML() {
         <div class="video-info">
           <p class="video-title">${video.title}</p>
           <div class="channel-details-container">
-            <a href="${video.channelLink}"><p class="video-author">${video.channelName}</p></a>
-            <img class="verified" src="Images/icons/verified.svg" data-channel-verification=${video.isVerified}>
+            <div class="channel-name-container">
+              <a href="${video.channelLink}"><p class="video-author">${video.channelName}</p></a>
+              <div class="tooltip2">${video.channelName}</div>
+            </div>
+            <div class="verified-container">
+              <img class="verified" src="Images/icons/verified.svg" data-channel-verification=${video.isVerified}>
+              <div class="tooltip2-v">Verified</div>
+            </div>
           </div>
           <p class="video-stats">${video.views} views &#183; ${video.publishedWhen}</p>
         </div>
