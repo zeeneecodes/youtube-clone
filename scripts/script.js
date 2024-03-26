@@ -1,6 +1,6 @@
 import { videoDetails, shuffle } from "../data/videos.js";
 
-renderHTML();
+//renderHTML();
 
 
 function renderHTML() {
