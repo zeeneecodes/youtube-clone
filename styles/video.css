@@ -101,21 +101,29 @@
 
 .more-container {
   position: relative;
+  display: flex;
 }
 
 .more {
   height: 25px;
+  cursor: pointer;
 }
 
 .show-more-option-container {
+  display: none;
   position: absolute;
   background-color: white;
   z-index: 5;
+  top: 35px;
   left: -220px;
   padding: 15px 0 15px 0;
   border-radius: 13px;
   box-shadow: 0px 10px 30px rgba(65, 65, 65, 0.068);
   cursor: pointer;
+}
+
+.show-more-active {
+  display: block;
 }
 
 .show-more-option {
