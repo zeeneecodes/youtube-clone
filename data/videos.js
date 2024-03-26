@@ -131,6 +131,18 @@ export const videoDetails = [
     publishedWhen:"3 weeks ago",
     originalLink: "https://www.youtube.com/watch?v=WmQDnAV_ASM&t=1174s",
     isVerified: "Yes"
+  }, {
+    id: 12,
+    channelName:"Nick White",
+    channelLink: "https://www.youtube.com/@NickWhite",
+    channelPicture: "Images/Channel Pictures/channel-12.jpg",
+    thumbnail: "Images/thumbnails/thumbnail-12.webp",
+    title:"Git Tutorial For Dummies",
+    duration:"19:25",
+    views:"892K",
+    publishedWhen:"2 years ago",
+    originalLink: "https://www.youtube.com/watch?v=mJ-qvsxPHpY&t=141s",
+    isVerified: "Yes"
   }
 ];
 
