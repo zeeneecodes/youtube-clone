@@ -64,7 +64,7 @@
 }
 
 .video-preview:hover .tool-watch-later,
-.video-preview:hover .tool-queue  {
+.video-preview:hover .tool-queue {
   display: inline-flex;
 }
 
@@ -105,8 +105,13 @@
 }
 
 .more {
+  opacity: 0;
   height: 25px;
   cursor: pointer;
+}
+
+.video-preview:hover .more {
+  opacity: 1;
 }
 
 .show-more-option-container {
