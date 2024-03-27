@@ -27,18 +27,22 @@ const hamburgerBtn = document.querySelector('.hamburger-menu');
 let isClicked = 0;
 hamburgerBtn.addEventListener('click', () => {
   const hamburgerContainer = document.querySelector('.hamburger-container');
-  const bodyPadding = document.body;
+  const body = document.body;
   const sideBar = document.querySelector('.sidebar');
 
   if (isClicked === 0) {
-    bodyPadding.style.paddingLeft='265px';
+    body.style.paddingLeft='265px';
+    body.style.height = '100%';
+    body.style.overflowY = 'hidden';
     sideBar.style.display = 'none';
     hamburgerContainer.style.display = 'block';
     isClicked = 1;
   } else if (isClicked === 1) {
-    bodyPadding.style.paddingLeft='95px';
-    sideBar.style.display = 'block';
     hamburgerContainer.style.display = 'none';
+    body.style.paddingLeft='95px';
+    sideBar.style.display = 'block';
+    body.style.removeProperty('height');
+    body.style.removeProperty('overflow-y');
     isClicked = 0;
   }
 });
