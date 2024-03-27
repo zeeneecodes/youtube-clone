@@ -28,9 +28,3 @@ a:visited {
     padding-left: 24px;
   }
 }
-
-@media (min-width: 1315.1px) {
-  body {
-    padding-left: 265px;
-  }
-}
