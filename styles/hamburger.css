@@ -1,12 +1,15 @@
+.hamburger-container{
+  display: none;
+}
+
 .hamburger-background {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.418);
-  z-index: 150;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
-  display: none;
+  z-index: 250;
 }
 
 .hamburger{
@@ -16,10 +19,9 @@
   bottom: 0;
   width: 240px;
   background-color: white;
-  z-index: 160;
   overflow: auto;
   padding-bottom: 10px;
-  display: none;
+  z-index: 260;
 }
 
 .hamburger::-webkit-scrollbar {

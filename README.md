@@ -13,4 +13,4 @@ This project is a personal challenge in testing my foundational knowledge about 
 - Shuffle the arrangement on every page load to imitate YouTube's algorithm
 - Dynamically add a verified checkmark on verified channels
 - Mobile responsiveness
-- Hamburger menu
+- Hamburger menu (interactive)
