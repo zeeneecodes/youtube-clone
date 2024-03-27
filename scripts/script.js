@@ -17,11 +17,31 @@ showMoreBtn.forEach((click) => {
       showMoreContainer.classList.remove('show-more-active');
       isClicked = 0;
     }
-
-    console.log(isClicked);
   });
 });
 
+const subscriptions = document.querySelector('.subscriptions-container');
+let subscriptionList = [];
+let subscriptionsHTML = '';
+const shuffledList = shuffle(videoDetails);
+
+for(let i = 0; i < 5; i++) {
+  subscriptionList.push({
+    channelName: shuffledList[i].channelName,
+    channelLink: shuffledList[i].channelLink,
+    channelPicture: shuffledList[i].channelPicture
+  });
+}
+
+subscriptionList.forEach((subscription) => {
+  subscriptionsHTML += `
+    <a href="${subscription.channelLink}"><div class="hamburger-link">
+      <img class="hamburger-subscription-pic" src="${subscription.channelPicture}">
+      <div>${subscription.channelName}</div>
+    </div></a>
+  `;
+});
+subscriptions.innerHTML = subscriptionsHTML;
 
 function closeOpenedShowMore() {
   const allShowMore = document.getElementsByClassName('show-more-option-container');

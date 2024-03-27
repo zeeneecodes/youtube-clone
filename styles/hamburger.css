@@ -1,0 +1,82 @@
+.hamburger-background {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.418);
+  z-index: 150;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.hamburger{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 240px;
+  background-color: white;
+  z-index: 160;
+  overflow: auto;
+  padding-bottom: 10px;
+}
+
+.hamburger::-webkit-scrollbar {
+  display: none;
+}
+
+.hamburger-top-section {
+  display: flex;
+  height: 55px;
+  width: 240px;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+}
+
+.hamburger-bottom-section {
+  margin-top: 55px;
+}
+
+
+.hamburger-link,
+.hamburger-section-title {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  cursor: pointer;
+  margin-left: 15px;
+  padding-left: 10px;
+}
+
+.hamburger-section-title {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+
+.hamburger-icon,
+.hamburger-subscription-pic {
+  height: 24px;
+  margin-bottom: 4px;
+  margin-right: 20px;
+}
+
+.hamburger-link div {
+  font-family: Roboto,Arial;
+  font-size: 14px;
+}
+
+.hamburger-link:hover {
+  background-color: rgb(235, 235, 235);
+  width: 195px;
+  border-radius: 10px;
+}
+
+.hamburger-bottom-section hr {
+  border: 1px solid rgb(228, 228, 228);
+}
+
+.hamburger-subscription-pic {
+  border-radius: 12px;
+}
