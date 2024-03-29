@@ -6,46 +6,55 @@ renderHTML();
 renderHamburgerSubscriptions();
 //renderYoutubeShorts();
 
+let isClicked = 0;
+let currentId = 0;
 const showMoreBtn = document.querySelectorAll('.more');
 showMoreBtn.forEach((click) => {
-  let isClicked = 0;
   click.addEventListener('click', () => {
     let moreId = click.dataset.showMoreIconId;
     let showMoreContainer = document.querySelector(`.js-show-more-option-${moreId}`);
     closeOpenedShowMore();
-    showMoreContainer.classList.add('show-more-active');
-
-    if (isClicked === 0){
+    
+    
+    if(currentId !== moreId) {
+      showMoreContainer.classList.add('show-more-active');
       isClicked = 1;
-    } else if (isClicked === 1){
-      showMoreContainer.classList.remove('show-more-active');
-      isClicked = 0;
+      currentId = moreId;
+    } else if (currentId === moreId) {
+      if (isClicked === 0){
+        showMoreContainer.classList.add('show-more-active');
+        isClicked = 1;
+        currentId = moreId;
+      } else if (isClicked === 1){
+        showMoreContainer.classList.remove('show-more-active');
+        isClicked = 0;
+        currentId = moreId;
+      }
     }
   });
 });
 
-
 const hamburgerBtn = document.querySelector('.hamburger-menu');
-let isClicked = 0;
+let hamburgerIsClicked = 0;
 hamburgerBtn.addEventListener('click', () => {
   const hamburgerContainer = document.querySelector('.hamburger-container');
   const body = document.body;
   const sideBar = document.querySelector('.sidebar');
 
-  if (isClicked === 0) {
+  if (hamburgerIsClicked === 0) {
     body.style.paddingLeft='265px';
     body.style.height = '100%';
     body.style.overflowY = 'hidden';
     sideBar.style.display = 'none';
     hamburgerContainer.style.display = 'block';
-    isClicked = 1;
-  } else if (isClicked === 1) {
+    hamburgerIsClicked = 1;
+  } else if (hamburgerIsClicked === 1) {
     hamburgerContainer.style.display = 'none';
     body.style.paddingLeft='95px';
     sideBar.style.display = 'block';
     body.style.removeProperty('height');
     body.style.removeProperty('overflow-y');
-    isClicked = 0;
+    hamburgerIsClicked = 0;
   }
 });
 
@@ -59,8 +68,9 @@ hamburgerBG.addEventListener('click',()=>{
   sideBar.style.display = 'block';
   body.style.removeProperty('height');
   body.style.removeProperty('overflow-y');
-  isClicked = 0;
+  hamburgerIsClicked = 0;
 });
+
 
 
 
