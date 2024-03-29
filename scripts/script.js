@@ -1,8 +1,10 @@
 import { renderHTML, renderHamburgerSubscriptions } from "./htmlRender.js";
 import { closeOpenedShowMore } from "./interactivity.js";
+import { renderYoutubeShorts } from "./htmlRender.js";
 
 renderHTML();
 renderHamburgerSubscriptions();
+//renderYoutubeShorts();
 
 const showMoreBtn = document.querySelectorAll('.more');
 showMoreBtn.forEach((click) => {
@@ -47,7 +49,18 @@ hamburgerBtn.addEventListener('click', () => {
   }
 });
 
-
+const hamburgerBG = document.querySelector('.hamburger-background');
+hamburgerBG.addEventListener('click',()=>{
+  const body = document.body;
+  const hamburgerContainer = document.querySelector('.hamburger-container');
+  const sideBar = document.querySelector('.sidebar');
+  hamburgerContainer.style.display = 'none';
+  body.style.paddingLeft='95px';
+  sideBar.style.display = 'block';
+  body.style.removeProperty('height');
+  body.style.removeProperty('overflow-y');
+  isClicked = 0;
+});
 
 
 
