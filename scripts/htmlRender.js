@@ -28,7 +28,7 @@ export function renderHTML() {
 
       <div class="video-info-grid">
         <div class="channel-picture">
-          <img class="profile-picture" src="${video.channelPicture}">
+        <a href="${video.channelLink}"><img class="profile-picture" src="${video.channelPicture}"></a>
         </div>
         <div class="video-info">
           <div class="video-title-container">
