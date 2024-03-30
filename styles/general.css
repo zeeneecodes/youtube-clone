@@ -28,3 +28,15 @@ a:visited {
     padding-left: 24px;
   }
 }
+
+@media (min-width: 600.1px) and (max-width: 1310px) {
+  body {
+    padding-left: 95px;
+  }
+}
+
+@media (min-width: 1310.1px) {
+ body {
+  padding-left: 265px;
+ } 
+}

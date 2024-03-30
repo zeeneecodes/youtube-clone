@@ -65,8 +65,18 @@ showMoreBtn.forEach((click) => {
   });
 });
 
+
+// WHEN CLICKING HAMBURGER ICON
+// 0: CLOSE || 1: OPEN
+
 const hamburgerBtn = document.querySelector('.hamburger-menu');
-let hamburgerIsClicked = 0;
+let hamburgerIsClicked;
+
+if (window.innerWidth > 600) {
+  hamburgerIsClicked = 1;
+}  else {
+  hamburgerIsClicked = 0;
+}
 hamburgerBtn.addEventListener('click', () => {
   const hamburgerContainer = document.querySelector('.hamburger-container');
   const body = document.body;
@@ -81,8 +91,15 @@ hamburgerBtn.addEventListener('click', () => {
     hamburgerIsClicked = 1;
   } else if (hamburgerIsClicked === 1) {
     hamburgerContainer.style.display = 'none';
-    body.style.paddingLeft='95px';
-    sideBar.style.display = 'block';
+
+    if (window.innerWidth > 600) {
+      sideBar.style.display = 'block';
+      body.style.paddingLeft='95px';
+    } else {
+      sideBar.style.display = 'none';
+      body.style.paddingLeft='24px';
+      
+    }
     body.style.removeProperty('height');
     body.style.removeProperty('overflow-y');
     hamburgerIsClicked = 0;

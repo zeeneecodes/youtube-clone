@@ -1,5 +1,5 @@
 .hamburger-container{
-  display: none;
+  display: block;
 }
 
 .hamburger-background {
@@ -83,4 +83,16 @@
 
 .hamburger-subscription-pic {
   border-radius: 12px;
+}
+
+@media (max-width: 1310px) {
+  .hamburger-container {
+    display: none;
+  }
+}
+
+@media (min-width: 1310.1px) {
+  .hamburger-background {
+    display: none;
+  }
 }
