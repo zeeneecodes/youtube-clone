@@ -291,7 +291,7 @@ export const videoDetails = [
     channelLink: "https://www.youtube.com/@SaraTepes",
     channelPicture: "Images/Channel Pictures/channel-23.jpg",
     thumbnail: "Images/thumbnails/thumbnail-23.webp",
-    title:"Wooyoo followed us to Mocha's check up and she immediately...",
+    title:"5 TIPS ON BLENDING DIGITAL PAINTINGS",
     duration:"10:09",
     views:"370K",
     publishedWhen:"3 years ago",
