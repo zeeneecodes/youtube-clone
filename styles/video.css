@@ -1,3 +1,31 @@
+/* ----------------- */
+/* styles for topics */
+/* ----------------- */
+.topic-container {
+  display: flex;
+  margin-bottom: 35px;
+}
+.topic {
+  background-color: rgb(242, 242, 242);
+  padding: 8px 12px 8px 12px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-right: 12px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.topic:hover {
+  background-color: rgb(229, 229, 229);
+}
+
+.active-topic,
+.active-topic:hover {
+  background-color: black;
+  color: white
+}
+
 .thumbnail {
   width: 100%;
   display: block;
@@ -242,6 +270,23 @@
   right: 8px;
 }
 
+/* ------------------------- */
+/* styles for youtube shorts */
+/* ------------------------- */
+.youtube-shorts-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+}
+
+.shorts-preview img {
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
 
 /* ------------------------------ */
 /* styles for page responsiveness */
@@ -286,4 +331,8 @@
     font-size: 16px;
     line-height: 24px;
   }
+
+  /* .video-grid {
+    grid-template-rows: auto 700px auto;
+  } */
 }

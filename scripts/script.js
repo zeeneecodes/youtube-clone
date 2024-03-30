@@ -9,11 +9,18 @@ renderHamburgerSubscriptions();
 // ONLY SHOW ACCORDING TO SELECTED TOPIC
 
 const allTopicBtn = document.querySelectorAll('.topic');
+const allTopicBtnArr = document.getElementsByClassName('topic');
 
 allTopicBtn.forEach((button) => {
   button.addEventListener('click', ()=> {
+    for (let i = 0; i < allTopicBtnArr.length; i++) {
+      if (allTopicBtnArr[i].classList.contains('active-topic')){
+        allTopicBtnArr[i].classList.remove('active-topic');
+      }
+    }
     const topicBtn = button.dataset.topic;
     const videos = document.querySelectorAll('.video-preview');
+    button.classList.add('active-topic');
     videos.forEach((video) => {
       const videoTopic = video.dataset.topic;
       if (topicBtn == 'all') {
@@ -94,9 +101,3 @@ hamburgerBG.addEventListener('click',()=>{
   body.style.removeProperty('overflow-y');
   hamburgerIsClicked = 0;
 });
-
-
-
-
-
-
