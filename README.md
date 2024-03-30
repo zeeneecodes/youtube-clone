@@ -14,3 +14,4 @@ This project is a personal challenge in testing my foundational knowledge about 
 - Dynamically add a verified checkmark on verified channels
 - Mobile responsiveness
 - Hamburger menu (interactive)
+- Sort by topics
