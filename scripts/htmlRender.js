@@ -1,5 +1,6 @@
 import { videoDetails, shuffle } from "../data/videos.js";
 import { isChannelVerified } from "./video.js";
+import { ytShortsData } from "../data/ytShorts.js";
 
 export function renderHTML() {
   const videoContainer = document.querySelector('.video-grid');
@@ -9,7 +10,7 @@ export function renderHTML() {
   
   videoDetails.forEach((video) => {
     html += `
-    <div class="video-preview" data-video-id=${video.id}>
+    <div class="video-preview" data-video-id=${video.id} data-topic=${video.topic}>
       <div class="thumbnail-row">
         <a href="${video.originalLink}">
           <img class="thumbnail" src="${video.thumbnail}">
@@ -116,4 +117,6 @@ export function renderHamburgerSubscriptions() {
   });
   subscriptions.innerHTML = subscriptionsHTML;
 }
+
+
 

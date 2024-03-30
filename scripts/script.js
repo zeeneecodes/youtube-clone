@@ -1,10 +1,34 @@
 import { renderHTML, renderHamburgerSubscriptions } from "./htmlRender.js";
 import { closeOpenedShowMore } from "./interactivity.js";
-import { renderYoutubeShorts } from "./htmlRender.js";
 
 renderHTML();
 renderHamburgerSubscriptions();
 //renderYoutubeShorts();
+
+
+// ONLY SHOW ACCORDING TO SELECTED TOPIC
+
+const allTopicBtn = document.querySelectorAll('.topic');
+
+allTopicBtn.forEach((button) => {
+  button.addEventListener('click', ()=> {
+    const topicBtn = button.dataset.topic;
+    const videos = document.querySelectorAll('.video-preview');
+    videos.forEach((video) => {
+      const videoTopic = video.dataset.topic;
+      if (topicBtn == 'all') {
+        video.style.display = 'block';
+      } else if (topicBtn === videoTopic) {
+        video.style.display = 'block';
+      } else if (topicBtn !== videoTopic) {
+        video.style.display = 'none';
+      }
+    });
+  });
+});
+
+
+// WHEN CLICKING SHOW MORE
 
 let isClicked = 0;
 let currentId = 0;

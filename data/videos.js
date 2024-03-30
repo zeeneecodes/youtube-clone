@@ -10,7 +10,8 @@ export const videoDetails = [
     views:"5.8K",
     publishedWhen:"Streamed 1 day ago",
     originalLink: "https://www.youtube.com/watch?v=kZ0-eF9xY28",
-    isVerified: "Yes"
+    isVerified: "Yes",
+    topic: "gaming"
   }, {
     id: 2,
     channelName:"Kara and Nate",
@@ -22,7 +23,8 @@ export const videoDetails = [
     views:"107K",
     publishedWhen:"3 hours ago",
     originalLink: "https://www.youtube.com/watch?v=G9Xh95FO0i4",
-    isVerified: "Yes"
+    isVerified: "Yes",
+    topic: "travel"
   }, {
     id: 3,
     channelName:"Sandristas 009",
@@ -34,7 +36,8 @@ export const videoDetails = [
     views:"1M",
     publishedWhen:"3 months ago",
     originalLink: "https://www.youtube.com/watch?v=1rd4P7uMvvQ",
-    isVerified: "No"
+    isVerified: "No",
+    topic: "music"
   }, {
     id: 4,
     channelName:"Ashikai",
@@ -46,7 +49,8 @@ export const videoDetails = [
     views:"75K",
     publishedWhen:"2 days ago",
     originalLink: "https://www.youtube.com/watch?v=YHCv8KFdL6M",
-    isVerified: "Yes"
+    isVerified: "Yes",
+    topic: "gaming"
   }, {
     id: 5,
     channelName:"PeruseProject",
@@ -58,7 +62,8 @@ export const videoDetails = [
     views:"31K",
     publishedWhen:"9 days ago",
     originalLink: "https://www.youtube.com/watch?v=GqMQLP6N25g",
-    isVerified: "Yes"
+    isVerified: "Yes",
+    topic: "books"
   }, {
     id: 6,
     channelName:"The Rain Driver",
@@ -70,7 +75,8 @@ export const videoDetails = [
     views:"322K",
     publishedWhen:"1 year ago",
     originalLink: "https://www.youtube.com/watch?v=GV4TNIiJQQU",
-    isVerified: "No"
+    isVerified: "No",
+    topic: "travel"
   }, {
     id: 7,
     channelName:"HITO",
@@ -82,7 +88,8 @@ export const videoDetails = [
     views:"295K",
     publishedWhen:"7 months ago",
     originalLink: "https://www.youtube.com/watch?v=INMWDBgfGBM",
-    isVerified: "No"
+    isVerified: "No",
+    topic: "music"
   }, {
     id: 8,
     channelName:"em iffy",
@@ -94,7 +101,8 @@ export const videoDetails = [
     views:"1.4M",
     publishedWhen:"8 months ago",
     originalLink: "https://www.youtube.com/watch?v=wHdqPFESgCs",
-    isVerified: "No"
+    isVerified: "No",
+    topic: "vlogs"
   }, {
     id: 9,
     channelName:"Bernadette Banner",
@@ -106,7 +114,8 @@ export const videoDetails = [
     views:"892K",
     publishedWhen:"3 years ago",
     originalLink: "https://www.youtube.com/watch?v=UTWsDC24IIw",
-    isVerified: "Yes"
+    isVerified: "Yes",
+    topic: "art"
   }, {
     id: 10,
     channelName:"Just Alex",
@@ -118,7 +127,8 @@ export const videoDetails = [
     views:"3.3M",
     publishedWhen:"1 year ago",
     originalLink: "https://www.youtube.com/watch?v=KcmjitAB0sM",
-    isVerified: "No"
+    isVerified: "No",
+    topic: "travel"
   }, {
     id: 11,
     channelName:"Solo Solo Travel",
@@ -130,7 +140,8 @@ export const videoDetails = [
     views:"198K",
     publishedWhen:"3 weeks ago",
     originalLink: "https://www.youtube.com/watch?v=WmQDnAV_ASM&t=1174s",
-    isVerified: "Yes"
+    isVerified: "Yes",
+    topic: "travel"
   }, {
     id: 12,
     channelName:"Nick White",
@@ -142,7 +153,8 @@ export const videoDetails = [
     views:"892K",
     publishedWhen:"2 years ago",
     originalLink: "https://www.youtube.com/watch?v=mJ-qvsxPHpY&t=141s",
-    isVerified: "Yes"
+    isVerified: "Yes",
+    topic: "programming"
   }
 ];
 
