@@ -88,6 +88,13 @@ hamburgerBtn.addEventListener('click', () => {
       body.style.height = '100%';
       sideBar.style.display = 'none';
       hamburgerContainer.style.display = 'block';
+    } else if (window.innerWidth < 450){
+      body.style.paddingLeft='265px';
+      body.style.height = '100%';
+      body.style.overflowY = 'hidden';
+      body.style.overflowX = 'hidden';
+      sideBar.style.display = 'none';
+      hamburgerContainer.style.display = 'block';
     } else {
       body.style.paddingLeft='265px';
       body.style.height = '100%';

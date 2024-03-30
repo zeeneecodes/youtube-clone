@@ -291,8 +291,23 @@
 /* ------------------------------ */
 /* styles for page responsiveness */
 /* ------------------------------ */
+@media (max-width: 450px){
+  .right-section {
+    flex-shrink: 0.5;
+  }
 
-@media (max-width: 600px) {
+  .topic-container {
+    width: 320px;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+
+  .topic-container::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media (min-width: 450.1px) and (max-width: 600px) {
   .right-section {
     flex-shrink: 0.5;
   }
