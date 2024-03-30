@@ -83,11 +83,18 @@ hamburgerBtn.addEventListener('click', () => {
   const sideBar = document.querySelector('.sidebar');
 
   if (hamburgerIsClicked === 0) {
-    body.style.paddingLeft='265px';
-    body.style.height = '100%';
-    body.style.overflowY = 'hidden';
-    sideBar.style.display = 'none';
-    hamburgerContainer.style.display = 'block';
+    if (window.innerWidth > 1310) {
+      body.style.paddingLeft='265px';
+      body.style.height = '100%';
+      sideBar.style.display = 'none';
+      hamburgerContainer.style.display = 'block';
+    } else {
+      body.style.paddingLeft='265px';
+      body.style.height = '100%';
+      body.style.overflowY = 'hidden';
+      sideBar.style.display = 'none';
+      hamburgerContainer.style.display = 'block';
+    }
     hamburgerIsClicked = 1;
   } else if (hamburgerIsClicked === 1) {
     hamburgerContainer.style.display = 'none';
