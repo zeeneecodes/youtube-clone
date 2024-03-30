@@ -27,7 +27,7 @@
 }
 
 .thumbnail {
-  width: 470px;
+  width: 100%;
   display: block;
   border-radius: 10px;
 }
@@ -291,6 +291,23 @@
 /* ------------------------------ */
 /* styles for page responsiveness */
 /* ------------------------------ */
+
+@media (max-width: 600px) {
+  .right-section {
+    flex-shrink: 0.5;
+  }
+
+  .topic-container {
+    width: 430px;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+
+  .topic-container::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 @media (min-width: 600.1px) and (max-width: 1080px){
   .video-grid {
     grid-template-columns: 1fr 1fr;
