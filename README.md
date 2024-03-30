@@ -13,44 +13,34 @@ This project is a personal challenge in testing my foundational knowledge about 
 - Rounded elements
 - Dynamically add a verified checkmark on verified channels
 #### GIF Demo of major features
-<div style="
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 35px;
-">
-  <div>
-    <p>Sort by topics (interactive)</p>
-    <img src="Images/demonstration/demo 6.gif">
-  </div>
-  <div>
-    <p>A show more button (interactive)</p>
-    <img src="Images/demonstration/demo 3.gif">
-  </div>
-  <div>
-    <p>Hamburger menu (interactive)</p>
-    <img src="Images/demonstration/demo 4.gif">
-  </div>
-  <div>
-    <p> ---</p>
-    <img src="Images/demonstration/demo 5.gif">
-  </div>
-  <div>
-    <p>A show more button (interactive)</p>
-    <img src="Images/demonstration/demo 3.gif">
-  </div>
-  <div>
-    <p>Show "Add to queue" and "add to watchlist" icons everytime you hover on a video</p>
-    <img src="Images/demonstration/demo 2.gif">
-  </div>
-  <div>
-    <p>Page responsiveness</p>
-    <img src="Images/demonstration/demo 7.gif">
-  </div>
-  <div>
-    <p>Shuffle the arrangement on every page load to imitate YouTube's algorithm</p>
-    <img src="Images/demonstration/demo 1.gif">
-  </div>
-</div>
+
+<p>Sort by topics (interactive)</p>
+<img src="Images/demonstration/demo 6.gif">
+<br/>
+<br/>
+<p>A show more button (interactive)</p>
+<img src="Images/demonstration/demo 3.gif">
+<br/>
+<br/>
+<p>Hamburger menu (interactive)</p>
+<img src="Images/demonstration/demo 4.gif">
+<img src="Images/demonstration/demo 5.gif">
+<br/>
+<br/>
+<p>A show more button (interactive)</p>
+<img src="Images/demonstration/demo 3.gif">
+<br/>
+<br/>
+<p>Show "Add to queue" and "add to watchlist" icons everytime you hover on a video</p>
+<img src="Images/demonstration/demo 2.gif">
+<br/>
+<br/>
+<p>Page responsiveness</p>
+<img src="Images/demonstration/demo 7.gif">
+<br/>
+<br/>
+<p>Shuffle the arrangement on every page load to imitate YouTube's algorithm</p>
+<img src="Images/demonstration/demo 1.gif">
 
 <br/>
 <br/>
